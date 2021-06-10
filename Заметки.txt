@@ -1,0 +1,62 @@
+Занятие 1 из 16
+___________________
+
+npm init -yes - команда создания пакета js (описание проекта)
+licence: MIT - можно использовать лицензию где угодно 
+
+require - подклбчение
+
+ДЗ:
+
+
+Занятие 2 из 16
+___________________
+
+Лучше работать с концом массива, чем с началом
+
+encodeURI()
+decodeURI()
+
+Создание http сервера:
+
+let 
+const
+
+const http = require('http');
+
+const server = http.createServer((req, res)=>{	
+
+});
+
+server.listen(8080, ()=>{
+	console.log('Server run in 8080 port\n' +
+		'http://localhost:8080');
+});
+
+
+Отладка в командной строке: node --inspect server.js (server.js - название файла)
+
+
+отложка: setTimeOut
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
