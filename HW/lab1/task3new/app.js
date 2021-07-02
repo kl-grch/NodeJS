@@ -1,6 +1,8 @@
 const http = require('http'); // подключение модуля http
 const fs = require('fs'); // подключение модуля для работы с файлом
 const filename = "body.html";
+const fileheader = 'header.html';
+const filefooter = 'filefooter.html';
 
 http.createServer((request, response) => {// вызов метода создания http сервера
 fs.readFile(filename, 'utf8', (err, data) => {
